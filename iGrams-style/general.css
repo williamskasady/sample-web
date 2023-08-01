@@ -1,0 +1,34 @@
+body {
+	margin: 0px;
+	padding-top: 60px;
+
+	padding-bottom: 3000px;
+}
+
+p {
+	font-family: FontAwesome, 'Noto Sans', sans-serif;
+	margin: 0px;
+}
+
+button {
+	font-family: FontAwesome, 'Noto Sans', sans-serif;
+	margin: 0px;
+	border: none;
+}
+
+header {
+	width: 100%;
+}
+
+main {
+	display: flex;
+	flex-direction: row;
+	width: 55%;
+	padding-bottom: 1000px;
+	margin-top: 27px;
+}
+
+.main-container {
+	display: flex;
+	justify-content: center;
+}

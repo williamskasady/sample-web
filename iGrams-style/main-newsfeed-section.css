@@ -1,0 +1,237 @@
+.newsfeed-section {
+	background-color: white;
+	flex: 1.4;
+}
+
+.stories-box {
+	background-color: white;
+	height: 116px;
+	border: 1px solid lightgray;
+	border-radius: 8px;
+	margin: 0px 13px 10px 4px;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-left: 18px;
+	column-gap: 12px;
+}
+
+.following-stories {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 5px;
+}
+
+.gradient-border {
+	height: 65px;
+	width: 65px;
+	background-image: linear-gradient(to left bottom, #ff00ee, #ffd13c);
+	border-radius: 100%;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.stories-border {
+	height: 93%;
+	width: 93%;
+
+	position: relative;
+	border-radius: inherit;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	background-color: white;
+}
+
+.following-stories img {
+	height: 94%;
+	width: 94%;
+	border-radius: 100%;
+}
+
+.following-stories p {
+	font-size: 11px;
+	font-weight: 400;
+}
+
+.newfeed {
+	display: flex;
+	flex-direction: column;
+}
+
+.post-container {
+	background-color: white;
+	outline: 1px solid lightgray;
+	border-radius: 8px;
+	margin: 6px 13px 10px 4px;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.author {
+	height: 56px;
+	border-radius: 7px;
+	border-bottom: 1px solid #eeeeee;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	position: relative;
+}
+
+.author-pic {
+	height: 57%;
+	outline: 1px solid #d3d3d3;
+	border-radius: 100%;
+	margin-left: 10px;
+	border-spacing: -5px;
+}
+
+.author img {
+	height: 100%;
+	border-radius: 100%;
+}
+
+.author-info {
+	margin-left: 13px;
+	display: flex;
+	flex-direction: column;
+}
+
+.author-info p {
+	color: #303030;
+	font-size: 13px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.post-manage-button {
+	background-color: white;
+	font-weight: bold;
+	height: 32%;
+	cursor: pointer;
+	position: absolute;
+	right: 10px;
+	border-radius: 75%;
+}
+
+.picture {
+	flex: 1;
+}
+
+.picture img {
+	width: 100%;
+}
+
+.feature {
+	margin: 0px;
+	height: 145px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 6px;
+}
+
+.quick-access {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	column-gap: 10px;
+	height: 40px;
+	position: relative;
+	padding-left: 8px;
+}
+
+.quick-access {
+	cursor: pointer;
+}
+
+.like {
+	height: 80%;
+}
+
+.text {
+	height: 80%;
+}
+
+.share {
+	height: 65%;
+}
+
+.save {
+	height: 70%;
+	position: absolute;
+	right: 6px;
+}
+
+.likes {
+	font-size: 14px;
+	font-weight: 700;
+	padding-left: 13px;
+}
+
+.caption {
+	font-size: 14px;
+	padding-left: 12px;
+	font-weight: 300;
+}
+
+.comments {
+	padding-left: 12px;
+	font-size: 14px;
+	color: #a5a5a5;
+	font-weight: 300;
+}
+
+.timer {
+	padding-top: 8px;
+	padding-left: 12px;
+	font-size: 10px;
+	color: #a5a5a5;
+	font-weight: 300;
+}
+/* s p a c i n g */
+
+.cmt {
+	margin-top: 10px;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	border-top: 1px solid #eeeeee;
+	height: 47px;
+
+	position: relative;
+}
+
+.cmt img {
+	height: 60%;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.cmt input {
+	font-family: FontAwesome, 'Noto Sans', sans-serif;
+	outline: none;
+	border: none;
+	font-size: 15px;
+	font-weight: 300;
+	margin-left: 8px;
+}
+
+.cmt button {
+	background-color: white;
+	color: #a0d8fc;
+	font-weight: 500;
+
+	position: absolute;
+	right: 6px;
+}
