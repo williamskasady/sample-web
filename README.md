@@ -1,1 +1,1 @@
-a clone web of instagram fot practiving code html, css, js
+a clone web of instagram for practiving code html, css, js
